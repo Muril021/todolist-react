@@ -1,0 +1,89 @@
+body {
+  font-family: Arial;
+  background-color: #F4F4F4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./img/bg.jpg');
+  background-repeat: no-repeat;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #181818;
+  color: #F4F4F4;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #1F31D4;
+  opacity: 0.8;
+  color: #F4F4F4;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 1;
+  transition: .3s;
+}
+
+.complete {
+  background-color: #189E18;
+}
+
+.remove {
+  background-color: #D1312B;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F4F4F4;
+}
+
+.todo {
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #F4F4F4;
+  border: 1px solid #333;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.filter, .search {
+  border-bottom: 1px solid #F4F4F4;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
